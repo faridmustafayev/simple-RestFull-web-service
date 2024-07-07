@@ -1,0 +1,26 @@
+###
+POST http://localhost:8080/v1/users
+Content-Type: application/json
+
+{
+  "age": 16,
+  "name": "Firuz"
+}
+
+<> 2024-07-07T160410.201.json
+<> 2024-07-07T160401.201.json
+<> 2024-07-07T160351.201.json
+<> 2024-07-07T160344.201.json
+
+###
+GET http://localhost:8080/v1/users
+
+<> 2024-07-07T160506.200.json
+<> 2024-07-07T160504.200.json
+<> 2024-07-07T160421.200.json
+
+###
+PUT http://localhost:8080/v1/users/5bd1e592-fcd3-4b0f-a22f-9aab43f71192?age=15
+
+###
+GET http://localhost:8080/v1/users/fromAge=23&toAge=27
